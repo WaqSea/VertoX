@@ -1,8 +1,3 @@
----
-
-### ✅ `README.md`
-
-
 # VertoX 🔒
 
 **VertoX**, gelişmiş bir Python tabanlı Discord bot destekli araçtır. Kullanıcıya özel araçlar oluşturabilir, webhook mesajları gönderebilir, ve bazı otomatikleştirilmiş işlevler sunar. Ayrıca kurulum sonrası kendini temizleyen bir sistemle çalışır.
