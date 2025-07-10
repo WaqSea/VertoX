@@ -1,5 +1,3 @@
-Harika! Aşağıda projen **"VertoX"** için tam özellikli, profesyonel bir GitHub `README.md` örneği bulacaksın. İçerik hem kullanıcıyı bilgilendiriyor, hem de kurulumu ve kullanım şeklini açıkça gösteriyor.
-
 ---
 
 ### ✅ `README.md`
