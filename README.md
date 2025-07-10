@@ -95,6 +95,6 @@ and then a hidden `.exe` file is created with PyInstaller.
 
 ## 📜 License
 
-Released under the MIT License. Check the `LICENSE` file for details.
+Released under the MIT License. Check the [LICENSE](https://github.com/WaqSea/VertoX/blob/main/LICENSE) file for details.
 
 ```
