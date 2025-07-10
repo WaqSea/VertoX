@@ -39,8 +39,7 @@ Double-click: setup.bat
 This process:
 
 * Installs required packages (`requirements.txt`)
-* Runs the file `mainfiles/setup.py`
-* Deletes itself and `requirements.txt` after installation
+* Runs the file `setup.py`
 
 ---
 
@@ -54,7 +53,7 @@ pip install -r requirements.txt
 2. Run the setup script:
 
 ```bash
-python mainfiles/setup.py
+python setup.py
 ```
 
 ---
