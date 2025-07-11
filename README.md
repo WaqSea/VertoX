@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/73767215-0a54-481d-8a07-ef7872d359d0" alt="Vertox_github_banner" />
+  <img src="https://github.com/user-attachments/assets/5f11f467-377d-4658-b919-48d5ae308b6f" alt="Vertox_github_banner" />
 </p>
 # VertoX 🔐
 
