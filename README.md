@@ -123,4 +123,4 @@ Any misuse of this tool is the sole responsibility of the user. The developers a
 
 ## 📜 License
 
-This project is licensed under the ![License](https://img.shields.io/badge/license-MIT-green).
+This project is licensed under the ![License](https://img.shields.io/badge/license-MIT-green)
