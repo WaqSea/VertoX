@@ -1,4 +1,5 @@
 # VertoX 🔐
+![Vertox_github_banner](https://github.com/user-attachments/assets/73767215-0a54-481d-8a07-ef7872d359d0)
 
 **VertoX** is a modular Python-based toolkit for creating advanced Discord-integrated utilities such as keyloggers, token validators, and webhook message automation. It is designed for **developers, security researchers, and automation enthusiasts** who want a customizable setup with minimal overhead and smart cleanup logic.
 
