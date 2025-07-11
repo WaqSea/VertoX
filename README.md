@@ -115,7 +115,7 @@ Any misuse of this tool is the sole responsibility of the user. The developers a
 
 ## 👨‍💻 Developed by
 
-**[WaqSea](waqsea.com)**
+**[WaqSea](https://waqsea.com)**
 🔗 *You Can Contact Me at contact@waqsea.com*
 
 ## 📜 License
