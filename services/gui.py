@@ -28,11 +28,8 @@ def banner():
 {Fore.GREEN} [1]{Style.RESET_ALL} Token Validator
 {Fore.GREEN} [2]{Style.RESET_ALL} Webhook Sender
 {Fore.GREEN} [3]{Style.RESET_ALL} Discord Bot Tester
-{Fore.GREEN} [4]{Style.RESET_ALL} QR Code Generator
-{Fore.GREEN} [5]{Style.RESET_ALL} System Info Viewer
-{Fore.GREEN} [6]{Style.RESET_ALL} Save/Load .env Config
-{Fore.GREEN} [7]{Style.RESET_ALL} Discord Keylogger
-{Fore.GREEN} [8]{Style.RESET_ALL} Exit
+{Fore.GREEN} [4]{Style.RESET_ALL} Discord Keylogger
+{Fore.GREEN} [0]{Style.RESET_ALL} Exit
 
 """)
 
