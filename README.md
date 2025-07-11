@@ -98,11 +98,7 @@ python setup.py
 
 > Place a `.env` file in the root directory with the following structure:
 
-```env
-TOKEN=your_discord_bot_token
-CHANNEL_ID=123456789012345678
-ADMIN_ID=987654321098765432
-```
+<img width="760" height="454" alt="env" src="https://github.com/user-attachments/assets/f1a01b5e-715e-4323-849a-2c7ce24a1835" />
 
 ---
 
