@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="Python Version" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License" />
   <img src="https://img.shields.io/github/actions/workflow/status/kullaniciAdi/RepoAdi/build.yml" alt="Build Status" />
-  <img src="https://img.shields.io/discord/123456789012345678?label=Discord&logo=discord" alt="Discord" />
+  <img src="https://img.shields.io/discord/1092141447823753256?label=Discord&logo=discord" alt="Discord" />
 </p>
 ---
 
