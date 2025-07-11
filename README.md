@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/github/actions/workflow/status/WaqSea/VertoX/build.yml" alt="Build Status" />
   <img src="https://img.shields.io/discord/1092141447823753256?label=Discord&logo=discord" alt="Discord" />
 </p>
----
 
 ## 📂 Project Structure
 
