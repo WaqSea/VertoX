@@ -111,6 +111,7 @@ python setup.py
 ---
 
 ## 🔐 Disclaimer
+![⚠️ Disclaimer](https://img.shields.io/badge/Use%20Responsibly-Warning-orange)
 
 > This project is **strictly for educational, ethical hacking, and automation testing purposes.**
 
