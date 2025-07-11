@@ -1,100 +1,123 @@
-# VertoX 🔒
+# VertoX 🔐
 
-**VertoX** is an advanced Python-based Discord bot-powered tool. It can create user-specific widgets, send webhooks, and offer some automated functionality. It also operates with a self-cleaning system after installation.
+**VertoX** is a modular Python-based toolkit for creating advanced Discord-integrated utilities such as keyloggers, token validators, and webhook message automation. It is designed for **developers, security researchers, and automation enthusiasts** who want a customizable setup with minimal overhead and smart cleanup logic.
+
+---
+
+## 📂 Project Structure
+
+```
+
+VertoX/
+├── main.py
+├── .env
+├── requirements.txt
+├── setup.bat
+├── VertoX.bat
+├── setup.py
+├── services/
+│   ├── gui.py
+│   ├── keylogger.py
+│   ├── tokenvalidator.py
+│   └── webhooksender.py
+
+````
 
 ---
 
 ## 🚀 Features
 
-- ✅ Creates a keylogger by obtaining the user's Discord token and channel information.
-- 🧠 Intelligent token and channel ID verification.
-- 🔐 Control via a bot that sends private messages to Discord.
-- 🧩 Creates an .exe file with PyInstaller.
-- 🧼 Self-cleans `setup.bat` and `requirements.txt` after installation.
-- 🎨 Colorful and stylish terminal interface with `colorama`.
+- ✅ Simple keylogger generator with PyInstaller integration
+- 🔐 Validates Discord tokens and bot credentials
+- 🕵️ Sends logs or keystrokes through bot or webhook
+- ⚙️ Auto `.exe` builder with token/channel injection
+- ♻️ Self-cleaning setup using `setup.bat`
+- 📡 Webhook sender utility
+- 🖥️ GUI-based setup tools included
+- 🧪 All-in-one modular service design
 
 ---
 
 ## 📦 Requirements
 
-- Python 3.10+ (3.13 tested)
-- pip (Python package manager)
+- Python **3.8+**
+- pip package manager
+- Internet connection for Discord/webhook communication
 
-Required Python packages to install:
+### Python packages (auto-installed via `setup.bat`):
 
+- `discord.py`
+- `pynput`
+- `python-dotenv`
+- `colorama`
+
+Install manually (optional):
 ```bash
 pip install -r requirements.txt
 ````
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Setup & Usage
 
-### 🔸 Automatic Installation (recommended)
+### 🔧 Option 1 — One-click Setup (Recommended)
 
-```bash
-Double-click: setup.bat
+Simply run:
+
+```bat
+setup.bat
 ```
 
-This process:
+This will:
 
-* Installs required packages (`requirements.txt`)
-* Runs the file `setup.py`
+1. Install required dependencies via pip
+2. Run the Python setup logic (`mainfiles/setup.py`)
+3. Clean itself and remove temporary files after setup
 
 ---
 
-### 🔹 Manual Installation (alternative)
-
-1. Install required dependencies:
+### 🔧 Option 2 — Manual Setup
 
 ```bash
 pip install -r requirements.txt
-```
-2. Run the setup script:
-
-```bash
-python setup.py
+python mainfiles/setup.py
 ```
 
 ---
 
-## 📁 .env File Example
+## 🧪 .env File Format
 
-Create an `.env` file in the project's root folder:
+> Place a `.env` file in the root directory with the following structure:
 
 ```env
 TOKEN=your_discord_bot_token
 CHANNEL_ID=123456789012345678
-ADMIN_ID=123456789012345678
+ADMIN_ID=987654321098765432
 ```
 
 ---
 
-## 🔧 Compilation (Keylogger)
+## 🛠️ Generating the Keylogger EXE
 
-After installation, when `main.py` is run, the user is prompted for:
-
-* Discord Token
-* Channel ID
-
-and then a hidden `.exe` file is created with PyInstaller.
+* When user chooses the Keylogger option in `main.py`, they’ll be asked for a Discord Token and Channel ID.
+* A Python script is dynamically generated and compiled using PyInstaller.
+* The `.exe` is placed next to `main.py`, while `dist/` and `build/` folders are auto-removed.
 
 ---
 
-## ⚠️ Warning
+## 🔐 Disclaimer
 
-> This project is for **educational**, **testing**, and **development** purposes only. Using it on any system without permission may be a crime under the laws of your country.
+> This project is **strictly for educational, ethical hacking, and automation testing purposes.**
 
----
-
-## 👤 Developer
-
-* Made with ❤️ by [WaqSea](https://github.com/WaqSea)
+Any misuse of this tool is the sole responsibility of the user. The developers are **not liable for any illegal or unethical usage.**
 
 ---
+
+## 👨‍💻 Developed by
+
+**WaqSea**
+🔗 *Private GitHub profile or contact information if you choose to share*
 
 ## 📜 License
 
-Released under the MIT License. Check the [LICENSE](https://github.com/WaqSea/VertoX/blob/main/LICENSE) file for details.
-
-```
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
