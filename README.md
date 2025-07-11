@@ -115,8 +115,8 @@ Any misuse of this tool is the sole responsibility of the user. The developers a
 
 ## 👨‍💻 Developed by
 
-**WaqSea**
-🔗 *Private GitHub profile or contact information if you choose to share*
+**[WaqSea](waqsea.com)**
+🔗 *You Can Contact Me at contact@waqsea.com*
 
 ## 📜 License
 
