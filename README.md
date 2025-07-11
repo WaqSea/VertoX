@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/5f11f467-377d-4658-b919-48d5ae308b6f" alt="Vertox_github_banner" />
 </p>
 
-# VertoX <img width="32" height="32" alt="vertox_logo" src="https://github.com/user-attachments/assets/5037f938-8bb9-42d7-b99e-2f3bebd3f384" />
+# VertoX <img width="48" height="48" alt="vertox_logo" src="https://github.com/user-attachments/assets/5037f938-8bb9-42d7-b99e-2f3bebd3f384" />
 
 **VertoX** is a modular Python-based toolkit for creating advanced Discord-integrated utilities such as keyloggers, token validators, and webhook message automation. It is designed for **developers, security researchers, and automation enthusiasts** who want a customizable setup with minimal overhead and smart cleanup logic.
 <!-- Badges -->
