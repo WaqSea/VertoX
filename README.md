@@ -42,7 +42,7 @@ VertoX/
 
 - Python **3.8+**
 - pip package manager
-- Internet connection for Discord/webhook communication
+- Internet connection for Discord.
 
 ### Python packages (auto-installed via `setup.bat`):
 
@@ -71,7 +71,7 @@ setup.bat
 This will:
 
 1. Install required dependencies via pip
-2. Run the Python setup logic (`mainfiles/setup.py`)
+2. Run the Python setup logic (`msetup.py`)
 3. Clean itself and remove temporary files after setup
 
 ---
@@ -80,7 +80,7 @@ This will:
 
 ```bash
 pip install -r requirements.txt
-python mainfiles/setup.py
+python setup.py
 ```
 
 ---
